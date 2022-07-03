@@ -1,0 +1,41 @@
+2022-07-03 23:13:20,084 - org.nagarro.pages.mobile.HomePage -INFO - Homepage title is - selendroid-test-app
+2022-07-03 23:13:43,072 - org.nagarro.pages.mobile.HomePage -INFO - Homepage title is - selendroid-test-app
+2022-07-03 23:17:28,262 - org.nagarro.stepDefinations.web.JQueryWebSteps -ERROR - An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'UE-M-LAP-1333', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-51-generic', java.version: '1.8.0_312'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [58fabfdf-4e73-4d23-a345-56752b7e8612, findElement {using=xpath, value=/hierarchy/android.widget.Toast}]
+Capabilities {appium:app: /home/prabhat_ranjan/IdeaPr..., appium:appPackage: io.selendroid.testapp, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {app: /home/prabhat_ranjan/IdeaPr..., automationName: uiautomator2, deviceName: device, platformName: android, udid: emulator-5554}, appium:deviceApiLevel: 30, appium:deviceManufacturer: unknown, appium:deviceModel: Android SDK built for x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 400, appium:deviceScreenSize: 1080x2160, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.5, appium:platformVersion: 11, appium:statBarHeight: 60, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 1980, left: 0, top: 60, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 58fabfdf-4e73-4d23-a345-56752b7e8612
+2022-07-03 23:18:48,037 - org.nagarro.pages.mobile.CommonPage -INFO - Error log - org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'UE-M-LAP-1333', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-51-generic', java.version: '1.8.0_312'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [3f161ce7-3da5-4c52-9418-5313ea947889, sendKeysToElement {id=2625dd2e-4188-4c33-bacf-984967ebca9e, value=[Ljava.lang.CharSequence;@20a967fe}]
+Capabilities {appium:app: /home/prabhat_ranjan/IdeaPr..., appium:appPackage: io.selendroid.testapp, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {app: /home/prabhat_ranjan/IdeaPr..., automationName: uiautomator2, deviceName: device, platformName: android, udid: emulator-5554}, appium:deviceApiLevel: 30, appium:deviceManufacturer: unknown, appium:deviceModel: Android SDK built for x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 400, appium:deviceScreenSize: 1080x2160, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.5, appium:platformVersion: 11, appium:statBarHeight: 60, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 1980, left: 0, top: 60, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (3f161ce7-3da5-4c52-9418-5313ea947889)] -> id: io.selendroid.testapp:id/exceptionTestField]
+Session ID: 3f161ce7-3da5-4c52-9418-5313ea947889
+2022-07-04 00:18:47,564 - org.nagarro.pages.mobile.HomePage -INFO - Homepage title is - selendroid-test-app
+2022-07-04 00:19:06,643 - org.nagarro.pages.mobile.HomePage -INFO - Homepage title is - selendroid-test-app
+2022-07-04 00:22:12,676 - org.nagarro.pages.mobile.CommonPage -INFO - Error log - org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'UE-M-LAP-1333', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-51-generic', java.version: '1.8.0_312'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [7dbc6960-0369-4719-9b1e-ae7270734894, sendKeysToElement {id=cfd2485e-34b2-4975-bffd-e81384676450, value=[Ljava.lang.CharSequence;@467233e4}]
+Capabilities {appium:app: /home/prabhat_ranjan/IdeaPr..., appium:appPackage: io.selendroid.testapp, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {app: /home/prabhat_ranjan/IdeaPr..., automationName: uiautomator2, deviceName: device, platformName: android, udid: emulator-5554}, appium:deviceApiLevel: 30, appium:deviceManufacturer: unknown, appium:deviceModel: Android SDK built for x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 400, appium:deviceScreenSize: 1080x2160, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.5, appium:platformVersion: 11, appium:statBarHeight: 60, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 1980, left: 0, top: 60, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (7dbc6960-0369-4719-9b1e-ae7270734894)] -> id: io.selendroid.testapp:id/exceptionTestField]
+Session ID: 7dbc6960-0369-4719-9b1e-ae7270734894
+2022-07-04 00:37:09,577 - org.nagarro.pages.mobile.HomePage -INFO - Homepage title is - selendroid-test-app
+2022-07-04 00:37:28,245 - org.nagarro.pages.mobile.HomePage -INFO - Homepage title is - selendroid-test-app
+2022-07-04 00:40:19,780 - org.nagarro.pages.mobile.CommonPage -INFO - Error log - org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'UE-M-LAP-1333', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-51-generic', java.version: '1.8.0_312'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [30f5a685-918e-4539-bb96-0c31142c3ce4, sendKeysToElement {id=2cb8567a-aaf1-4653-846a-ed717d861713, value=[Ljava.lang.CharSequence;@6b6eae52}]
+Capabilities {appium:app: /home/prabhat_ranjan/IdeaPr..., appium:appPackage: io.selendroid.testapp, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {app: /home/prabhat_ranjan/IdeaPr..., automationName: uiautomator2, deviceName: device, platformName: android, udid: emulator-5554}, appium:deviceApiLevel: 30, appium:deviceManufacturer: unknown, appium:deviceModel: Android SDK built for x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 400, appium:deviceScreenSize: 1080x2160, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.5, appium:platformVersion: 11, appium:statBarHeight: 60, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 1980, left: 0, top: 60, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (30f5a685-918e-4539-bb96-0c31142c3ce4)] -> id: io.selendroid.testapp:id/exceptionTestField]
+Session ID: 30f5a685-918e-4539-bb96-0c31142c3ce4
